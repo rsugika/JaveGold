@@ -9,7 +9,7 @@ public class Check14 {
  * interfaceのprivateメソッドはあくまでもデフォルトメソッドから利用されるのを想定する
  */
 
-interface Sample {
+interface Sample14 {
     // insert code here
 
     private void b() {

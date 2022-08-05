@@ -27,7 +27,7 @@ interface C extends B {}
 
 interface D extends C {}
 
-class Sample implements A, D {
+class unit1Sample implements A, D {
     @Override
     public void test() {
         // insert code here

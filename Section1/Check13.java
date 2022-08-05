@@ -12,13 +12,13 @@ public class Check13 {
  * オーバーライドするときは、アクセス制限を同等か広く取る必要がある
  */
 
-interface A {
+interface A13 {
     public default void test() {
         System.out.println("A");
     }
 }
 
-abstract class B {
+abstract class B13 {
     // ここがpublicであればコンパイルエラーは起きない
     // protected void test() {
     public void test() {
@@ -26,7 +26,7 @@ abstract class B {
     }
 }
 
-class Sample extends B implements A {
+class Sample extends B13 implements A13 {
     public static void main(String[] args) {
         new Sample().test();
     }

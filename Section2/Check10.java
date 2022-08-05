@@ -20,7 +20,7 @@ public class Check10 {
  * Functionインターフェース合成する場合
  */
 
-class Main {
+class Main10 {
     public static void main() {
         Function<Integer, Integer> plus = (x) -> x + 2;
         Function<Integer, Integer> times = (x) -> x * 2;

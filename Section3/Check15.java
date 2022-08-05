@@ -30,9 +30,9 @@ class AtomicValue extends Value {
     }
 }
 
-class Task implements Runnable {
+class Task15 implements Runnable {
     private Value val;
-    public Task(Value val) {
+    public Task15(Value val) {
         this.val = val;
     }
     @Override
@@ -50,8 +50,8 @@ public class Check15 {
         Value val = new AtomicValue();
 
         ExecutorService exec = Executors.newFixedThreadPool(2);
-        exec.submit(new Task(val));
-        exec.submit(new Task(val));
+        exec.submit(new Task15(val));
+        exec.submit(new Task15(val));
 
         try {
             Thread.sleep(200);

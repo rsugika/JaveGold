@@ -12,19 +12,19 @@ public class Check9 {
  * 定義したインターフェース名を指定する必要があること
  */
 
-interface A {
+interface A9 {
     static void test() {
         System.out.println("A");
     }
 }
 
-interface B extends A {}
+interface B9 extends A9 {}
 
-class C implements A {}
+class C9 implements A9 {}
 
-class D implements A {
+class D9 implements A9 {
     public static void main(String[] args) {
-        A.test();
+        A9.test();
         // ここから下はerror
         // B.test();
         // C.test();

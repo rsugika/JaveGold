@@ -71,7 +71,7 @@ class Item {
  * これだと変更が生じたたびにコンストラクタの引数の数を変更しなくてはならん。
  */
 
- class Sample {
+ class Sample4 {
     public static void main(String[] args) {
         // Item item = new Item.Builder(100)
         //                     .setName("orange")
